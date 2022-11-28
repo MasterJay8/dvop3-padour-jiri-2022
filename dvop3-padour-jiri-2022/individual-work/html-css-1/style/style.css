@@ -1,0 +1,130 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body header {
+  background-color: #222222;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+body header .headercontent {
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+}
+body header .headercontent .headerleft ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body header .headercontent .headerleft ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+body header .headercontent .headerleft ul #logo {
+  font-size: 23px;
+  padding-left: 0px;
+}
+body header .headercontent .headerright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .wrap {
+  max-width: 1000px;
+  margin: auto;
+}
+body .wrap main .portfolio {
+  display: flex;
+  gap: 10px;
+  padding: 20px 0px 0px 0px;
+}
+body .wrap main .portfolio .headline {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .wrap main .portfolio .recent {
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .wrap main .container {
+  display: flex;
+  justify-content: space-between;
+}
+body .wrap main .container .project {
+  max-width: 475px;
+  width: 100%;
+  padding: 10px 0px;
+}
+body .wrap main .container .project .img img {
+  width: 100%;
+  height: auto;
+}
+body .wrap main .container .project .info {
+  padding: 10px 0px;
+}
+body .wrap main .container .project .info .title {
+  color: #5a85bd;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+body .wrap main .copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+  font-size: 12px;
+  padding: 20px 0px;
+}/*# sourceMappingURL=style.css.map */
